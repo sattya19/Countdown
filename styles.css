@@ -10,7 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    background-image: url('https://wallpapercave.com/wp/wp3435099.jpg');
+    background-image: url('https://th.bing.com/th/id/R.08ae67e86583eecaa188a5f92cd6e5d9?rik=3%2bQ%2fQcpxY5Tm4w&riu=http%3a%2f%2fwallpaperswide.com%2fdownload%2fincomplete-wallpaper-2048x1152.jpg&ehk=RNlXtNEhIGem52ll%2f%2b%2bOUd6fi1Za3qyRV782dcgPPLg%3d&risl=&pid=ImgRaw&r=0');
     object-fit: cover;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -27,16 +27,19 @@ body{
    color: white;
    margin: 10%;
    font-size: 30px;
+   opacity: 80%;
 }
 .card{
     height: 15vh;
     width: 10vw;
     background-color: transparent;
-   
+    font-weight: 600;
     margin: 5%;
     font-size: 30px;
     transition: all 0.4s;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: black;
+    opacity: 80%;
 
 }
 .card:hover{
@@ -46,4 +49,14 @@ body{
 .card h1{
     font-size: 80px;
     color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.innerText{
+    font-size: 80px;
+    color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
