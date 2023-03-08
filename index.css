@@ -34,11 +34,13 @@ top: 0;
     position: relative;
     display: flex;
     padding-top: 20%;
-    padding-left: 3%;
+    padding-left: 8%;
    gap: 8%;
 }
 .tittle {
-    
+    height: 5vh;
+    width: 23vh;
+
    color: white;
    margin: 10%;
    font-size: 15px;
