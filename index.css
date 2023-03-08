@@ -35,6 +35,7 @@ top: 0;
     display: flex;
     padding-top: 20%;
     padding-left: 8%;
+    padding-right: 5%;
    gap: 8%;
 }
 .tittle {
