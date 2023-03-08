@@ -24,7 +24,7 @@ width: 100%;
 transition: 1000ms;
 background-position: center;
 background-repeat: no-repeat;
-object-fit: contain;
+object-fit: cover;
 position: absolute;
 left: 0;
 top: 0;
@@ -65,4 +65,32 @@ top: 0;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+@media (max-width :1400px) {
+    .countdown{
+        gap : 6%;
+
+    }
+    .tittle{
+        font-size: 10px;
+    }
+    .card{
+        font-size: 25px;
+        margin: 3%;
+    }
+    
+}
+@media (max-width :400px) {
+    .countdown{
+        gap : 2%;
+
+    }
+    .tittle{
+        font-size: 5px;
+    }
+    .card{
+        font-size: 15px;
+        margin: 22%;
+    }
+    
 }
