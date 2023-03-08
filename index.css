@@ -89,9 +89,12 @@ top: 0;
         font-size: 5px;
     }
     .card{
-        font-size: 1px;
-        margin: 2%;
+     
+        margin: 1%;
         font-weight: 50;
+    }
+    .card h1{
+        font-size: 10px;
     }
     
 }
