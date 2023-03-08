@@ -89,8 +89,9 @@ top: 0;
         font-size: 5px;
     }
     .card{
-        font-size: 5px;
-        margin: 22%;
+        font-size: 3px;
+        margin: 2%;
+        font-weight: 200;
     }
     
 }
