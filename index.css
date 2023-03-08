@@ -38,19 +38,14 @@ top: 0;
    gap: 8%;
 }
 .tittle {
-    height: 5vh;
-    width: 13vw;
-   
+    
    color: white;
    margin: 10%;
    font-size: 15px;
-   /* opacity: 80%; */
+   
 }
 .card{
-   
-    height: 15vh;
-    width: 10vw;
-  
+ 
     font-weight: 600;
     margin: 5%;
     font-size: 30px;
