@@ -20,12 +20,20 @@ const countdown = () => {
   const daysInMonth = "31 28 31 30 31 30 31 31 30 31 30 31".split(" ");
   const daysInCurrentMonth = daysInMonth[month];
   const todaysDate = d.getDate();
-  const remainingDays = daysInCurrentMonth - todaysDate;
+
+  let remainingDays;
+  if(monthsRemaining>0){
+    remainingDays= daysInCurrentMonth- todaysDate;
+  }
+  else{
+    remainingDays = date.getDate() - todaysDate;
+  }
 
 
   const textHours = Math.floor((gap % days) / hours);
   const textMinutes = Math.floor((gap % hours) / minutes);
   const textSeconds = Math.floor((gap % minutes) / seconds);
+ 
 
   document.querySelector(".days").innerText = remainingDays;
 

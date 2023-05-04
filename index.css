@@ -38,6 +38,9 @@ top: 0;
     padding-right: 5%;
    gap: 8%;
 }
+.tittle h1{
+    font-size: 30px;
+}
 .tittle {
     height: 5vh;
     width: 23vh;
