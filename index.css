@@ -4,11 +4,15 @@
     cursor: default;
     font-family: sans-serif;
     overflow: hidden;
+  
 }
 
 body{
     height: 100%;
     width: 100%;
+    justify-content: center;
+align-items: center;
+
    
     
   
@@ -34,28 +38,27 @@ top: 0;
     position: relative;
     display: flex;
     padding-top: 20%;
-    padding-left: 8%;
-    padding-right: 5%;
-   gap: 8%;
+    color: white;
+    padding-left: 12%;
+    
 }
 .tittle h1{
-    font-size: 30px;
+    font-size: 60px;
 }
 .tittle {
-    height: 5vh;
-    width: 23vh;
 
-   color: white;
-   margin: 10%;
+  
    font-size: 15px;
    
 }
+
 .card{
- 
+   
     font-weight: 600;
     margin: 5%;
     font-size: 30px;
     transition: all 0.4s;
+    
 
 }
 .card:hover{
@@ -74,11 +77,11 @@ top: 0;
         gap : 6%;
 
     }
-    .tittle{
-        font-size: 15px;
+    .tittle h1{
+        font-size: 40px;
     }
     .card h1{
-        font-size: 60px;
+        font-size: 50px;
         margin: 3%;
     }
     
@@ -88,8 +91,8 @@ top: 0;
         gap : 2%;
 
     }
-    .tittle{
-        font-size: 5px;
+    .tittle h1 {
+        font-size: 12px;
     }
     .card{
      
@@ -97,7 +100,50 @@ top: 0;
         font-weight: 50;
     }
     .card h1{
-        font-size: 30px;
+        font-size: 12px;
+    }
+    @media (max-width: 900px) {
+        .countdown {
+            gap: 60px;
+        }
+    
+        .tittle h1{
+            font-size: 12px;
+            font-weight: bold;
+        }
+    
+        .card {
+            font-size: 14px;
+        }
     }
     
+    @media (max-width: 650px) {
+        .countdown {
+            gap: 45px;
+        }
+    
+        .tittle h1 {
+            font-size: 12px;
+            font-weight: bold;
+        }
+    
+        .card {
+            font-size: 12px;
+        }
+    }
+    
+    @media (max-width: 550px) {
+        .countdown {
+            gap: 30px;
+        }
+    
+        .tittle h1{
+            font-size: 12px;
+            font-weight: bold;
+        }
+    
+        .card {
+            font-size: 12px;
+        }
+    }
 }
