@@ -2,7 +2,7 @@ api = "https://picsum.photos/1920/1080";
 
 
 const countdown = () => {
-  const date = new Date("05 19,2023 00:00:00");
+  const date = new Date("12 20,2023 00:00:00");
   const countDate = date.getTime();
 
   const now = new Date().getTime();
