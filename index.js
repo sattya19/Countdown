@@ -1,4 +1,14 @@
-api = "https://picsum.photos/1920/1080";
+const randomBackgroundAPI = "https://picsum.photos/1920/1080/";
+
+const backgroundImage = document.getElementById("backgroundImage");
+backgroundImage.addEventListener("load", () => {
+  backgroundImage.style.opacity = 1;
+});
+
+fetch(randomBackgroundAPI).then((response) => {
+  const backgroundImageEle = document.getElementById("backgroundImage");
+  backgroundImageEle.setAttribute("src", `${response.url}`);
+});
 
 
 const countdown = () => {

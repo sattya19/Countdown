@@ -13,8 +13,9 @@ body {
   align-items: center;
 }
 
-.backgroundImage img {
-  height: 100%;
+#backgroundImage {
+  height: 100vh;
+  width: 100vw;
 
   transition: 100ms;
   background-position: center;
@@ -79,7 +80,6 @@ body {
     font-size: 30px;
   }
   .backgroundImage img {
-    height: 100%;
     overflow: hidden;
   }
 }
