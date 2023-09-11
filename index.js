@@ -12,7 +12,7 @@ fetch(randomBackgroundAPI).then((response) => {
 
 
 const countdown = () => {
-  const date = new Date("12 20,2023 00:00:00");
+  const date = new Date("04 05,2024 00:00:00");
   const countDate = date.getTime();
 
   const now = new Date().getTime();
